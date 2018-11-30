@@ -3,11 +3,6 @@
 <manifest>
   <remote name="aclegg2011" fetch="https://github.com/aclegg2011" revision="p9.0" />  
   
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aclegg2011" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aclegg2011" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aclegg2011" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="aclegg2011" />
-  
   <project name="Blissroms-devices/device_huawei_berkeley" path="device/huawei/berkeley" remote="github" revision="p9.0" />
   <project name="Blissroms-vendor/proprietary_vendor_huawei_kirin970-common" path="vendor/huawei" remote="github" revision="p9.0" />
   <project name="device_huawei_kirin970-common" path="device/huawei/kirin970-common" remote="BlissRoms-Devices" revision="p9.0" />
